@@ -26,6 +26,8 @@ python ./scenario_configs/generation-imagenet.py
 ```
   python train.py --cuda 0 --dataset CIFAR100 --config_file CIFAR100_s1.pkl
 ```
+
 where the flags are explained as:
+
     - `--dataset`: The dataset used for training. (You can easily incorporate your own datasets to enrich your experiments.)
     - `--config_file`: Imbalanced data stream generated based on the dataset (to obtain this file for the corresponding dataset, please refer to the Data stream generation mentioned above).
